@@ -1,0 +1,68 @@
+.briyani{
+    margin-right: 400px;
+}
+.vegtable{
+    margin-left: 900px;
+    margin-top: 20px;
+}
+#bri{
+
+margin-left: 150px;
+margin-top: -150px;
+font-size: 50px;
+}
+h2{
+    margin-left: 900px;
+    margin-top: -300px;
+}
+.ing{
+margin-left: 800px;
+margin-top: -10px;
+font-size: 20px;
+}
+
+.step{
+    margin-left:450px ;
+}
+.step1{
+    margin-left: 400px;
+    margin-top: -10px;
+    font-size: 40px; 
+    font-style:initial;  
+}
+
+.step2{
+    margin-left: 400px;
+    margin-top: -10px;
+    font-size: 40px; 
+    font-style:initial;  
+}
+
+.step3{
+    margin-left: 400px;
+    margin-top: -10px;
+    font-size: 40px; 
+    font-style:initial;  
+}
+
+.step4{
+    margin-left: 400px;
+    margin-top: -10px;
+    font-size: 40px; 
+    font-style:initial;  
+}
+h3{
+    font-size: 50px;
+    margin-top:-300px;
+    margin-left: 950px;
+}
+.but{
+    margin-left: 1100px;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(9, 180, 60);
+    color: aliceblue;
+    border-radius: 10px;
+    font-size: 20px;
+   
+}

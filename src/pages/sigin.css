@@ -1,0 +1,55 @@
+span{
+    color: rgb(214, 7, 128);
+    font-size: 50px;
+      margin-left: 400px;
+      border-bottom: 2px solid;
+}
+
+.sigin{
+margin-left: 500px;
+    color: rgb(124, 3, 84);
+   font-style: oblique;   
+  }
+ 
+  .backimg{
+   position:absolute;
+    margin: -350px;
+  } 
+  .name{
+    margin-left: 500px;
+    font-size: large;
+
+  }
+  .email{
+    margin-left: 500px;
+    font-size: large;
+
+  }
+  .password{
+    margin-left: 500px;
+
+  }
+  .sub{
+    margin-left: 550px;
+    width: 100px;
+    margin-top: 30px;
+    height: 30px;
+    background-color: rgb(47, 214, 13);
+    color: rgb(146, 143, 163);
+    border-radius: 20px;
+  }
+  h1{
+    margin-left: 500px;
+    color: #6533ee;
+  }
+  
+.btn{
+  padding: 10px;
+  height: 40px;
+  width: 80px;
+  margin-left: -500px;
+  margin-top: 130px;
+  background-color: rgb(15, 50, 116);
+  border-radius: 10px;
+  color: aliceblue;
+}

@@ -1,0 +1,43 @@
+.container{
+  display: flex;
+flex-direction:column;
+float: left;
+}
+.column{
+  padding: 10px;
+ display: flex;
+float: left;
+
+} 
+body {font-family: "Times New Roman", Georgia, Serif;}
+.text {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+.menu{
+
+  text-align: center;
+}
+.menuimg{
+  margin-top: -90px;
+  /* position: fixed; */
+}
+.form{
+margin-top: -500px;
+margin-left: 700px;
+ 
+}
+.btn{
+  padding: 10px;
+  height: 40px;
+  width: 80px;
+  margin-left: 20px;
+  margin-top: 30px;
+  background-color: rgb(15, 50, 116);
+  border-radius: 10px;
+  color: aliceblue;
+}
+.dish{
+  width: 400px;
+  height: 200px;
+}
