@@ -10,14 +10,14 @@ const [Name,setUser]=useState(null)
 const [Email,setEmail]=useState(null)
 const [Password,setPassword]=useState(null)
  
-const Create = (e)=>{ 
+const create = (e)=>{ 
   e.preventDefault();
   const data={"Name":Name,
   "Email":Email,
   "Password":"Password"
 }
 
-  axios.post("http://localhost:3500/api/User/Create",data)
+  axios.post("https://capstonedb.onrender.com/api/User/Create",data)
 
   .then((response)=>console.log(response.data)
   .catch((error)=> console.log(error)))
@@ -26,7 +26,7 @@ const Create = (e)=>{
   return (
     <div>
    
-      <form onSubmit={Create}className='sigin'>
+      <form onSubmit={create}className='sigin'>
       <span>welcome Indian food</span>
       <h1>Create your account</h1><br></br>
     

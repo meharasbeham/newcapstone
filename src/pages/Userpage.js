@@ -15,7 +15,7 @@ const create = (e)=>{
 
 }
 
-  axios.post("http://localhost:3500/api/Menu/Create",data)
+  axios.post("https://capstonedb.onrender.com/api/Menu/Create",data)
 
   .then((response)=>console.log(response.data)
   .catch((error)=> console.log(error)))

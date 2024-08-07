@@ -8,9 +8,9 @@ export default function Login() {
    const [Email,setEmail]=useState()
   const [Password,setPassword]=useState()
 
-  const Create=(e)=>{
+  const create=(e)=>{
     e.preventDefault()
-    axios.post('http://localhost:3500/api/User/Create',{Name,Email,Password})
+    axios.post('https://capstonedb.onrender.com/api/User/Create',{Name,Email,Password})
    
     .then((response)=>console.log(response))
     .catch(err=>console.log(err))
@@ -18,8 +18,9 @@ export default function Login() {
   
   return (
     
+    
     <div className=''>
-<form onSubmit={Create}>
+<form onSubmit={create}>
 <h1>Create Account</h1>
 <p>
   <label type='name' >Name:</label>
